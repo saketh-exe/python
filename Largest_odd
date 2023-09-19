@@ -1,0 +1,19 @@
+lst = list()
+q = input("how many no ?")
+a = 0
+c = 1
+while a <= q:
+    a += 1
+    b = int(input("?"))
+    if b not in lst :
+        lst.append(b)
+        
+for al in lst :
+    if al%2 == 0:
+        None
+    else:
+        if al > c:
+            c = al
+        
+print(lst)
+print(c)
