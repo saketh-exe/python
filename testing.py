@@ -1,2 +1,4 @@
-a = "12345tyghjk"
-print(a[50:-3:-1])
+import cowsay
+
+cowsay.trex("wish you a very very happy returns of the day")
+
