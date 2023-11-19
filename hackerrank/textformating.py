@@ -1,6 +1,6 @@
 def print_formatted(number):
     # Calculate the width needed for formatting based on the binary representation of the number
-    width = len(bin(number)) - 2
+    width = len(bin(number))  - 2
 
     # Iterate from 1 to number and print the values in the required format
     for i in range(1, number + 1):
